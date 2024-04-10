@@ -184,7 +184,7 @@ function Grid() {
 
     async function visualisePath() {
         setComputingPath(true)
-        await timer(1)
+        await timer(200)
         let path = await (() => new Promise(res => res(Dijkstra(grid)) ))()
         await timer(1)
         setComputingPath(false)
