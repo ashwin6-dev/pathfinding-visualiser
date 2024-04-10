@@ -1,0 +1,35 @@
+.cell {
+    background-color: black;
+    padding: 1vw;
+    transition: all linear 0.1s;
+    background-color: rgb(56, 56, 56);
+    margin: 0.5%;
+}
+
+.cell.start {
+    background-color: rgb(8, 255, 8);
+}
+
+.cell.start:hover {
+    background-color: rgb(3, 218, 3);
+}
+
+.cell.end {
+    background-color: rgb(255, 94, 0);
+}
+
+.cell.end:hover {
+    background-color: rgb(233, 87, 3);
+}
+
+.cell.wall {
+    background-color: rgb(97, 96, 96);
+}
+
+.cell:hover {
+    background-color: rgb(127, 127, 128);
+}
+
+.cell.path {
+    background-color: rgb(13, 90, 254);
+}

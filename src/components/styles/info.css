@@ -1,0 +1,26 @@
+#container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 3% 3% 3%;
+    min-height: 50%;
+    margin-right: 2%;
+}
+
+img {
+    width: 35%;
+}
+
+#title-section {
+    margin-bottom: 4%;
+}
+
+#title {
+    font-weight: 00;
+    font-size: 1.8rem;  
+}
+
+#color {
+    padding: 3%;
+    border-radius: 7px;
+}
